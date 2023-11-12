@@ -32,11 +32,12 @@ const router = createBrowserRouter([
       {
         path:'/photographers',
         element:<Photographers></Photographers>,
+        loader: () =>fetch('/photographer.json')
       },
       {
         path:'/packages',
         element:<Packages></Packages>,
-        loader: () =>fetch('package.json')
+        loader: () =>fetch('/package.json')
       },
       {
         path:'/register',

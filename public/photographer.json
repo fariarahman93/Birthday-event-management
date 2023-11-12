@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "designation": "Senior Photographer",
+      "picture": "https://i.ibb.co/BcNVwXd/jakob-owens-DQPP9r-VLYGQ-unsplash.jpg",
+      "phone": "+8801712345678",
+      "email": "john.doe@example.com",
+      "facebook": "facebook.com/johndoe"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "designation": "Photographer",
+      "picture": "https://i.ibb.co/b6BJfXj/samuel-rios-G73fbi6h-RMY-unsplash.jpg",
+      "phone": "+8801812345678",
+      "email": "jane.smith@example.com",
+      "facebook": "facebook.com/janesmith"
+    },
+    {
+      "id": 3,
+      "name": "Alex Johnson",
+      "designation": "Senior Photographer",
+      "picture": "https://i.ibb.co/gZr84c4/shubh-karman-singh-f-Hhwd-Jkt-LE-unsplash.jpg",
+      "phone": "+8801912345678",
+      "email": "alex.johnson@example.com",
+      "facebook": "facebook.com/alexjohnson"
+    },
+    {
+      "id": 4,
+      "name": "Emily White",
+      "designation": "Senior Photographer",
+      "picture": "https://i.ibb.co/Qn4WWnf/marco-xu-To-UPBCO62-Lw-unsplash.jpg",
+      "phone": "+8801712345678",
+      "email": "emily.white@example.com",
+      "facebook": "facebook.com/emilywhite"
+    },
+    {
+      "id": 5,
+      "name": "Chris Brown",
+      "designation": "Photographer",
+      "picture": "https://i.ibb.co/vwPW8cp/alif-ngoylung-jg-6-ARMia-PM-unsplash.jpg",
+      "phone": "+8801812345678",
+      "email": "chris.brown@example.com",
+      "facebook": "facebook.com/chrisbrown"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Martinez",
+      "designation": "Photographer",
+      "picture": "https://i.ibb.co/89qWzKM/christopher-campbell-r-DEOVt-E7v-Os-unsplash.jpg",
+      "phone": "+8801912345678",
+      "email": "sophia.martinez@example.com",
+      "facebook": "facebook.com/sophiamartinez"
+    },
+    {
+      "id": 7,
+      "name": "David Miller",
+      "designation": "Senior Photographer",
+      "picture": "https://i.ibb.co/Ct2xYWz/jonas-kakaroto-mj-Rwhvq-EC0-U-unsplash.jpg",
+      "phone": "+8801712345678",
+      "email": "david.miller@example.com",
+      "facebook": "facebook.com/davidmiller"
+    },
+    {
+      "id": 8,
+      "name": "Olivia Taylor",
+      "designation": "Photographer",
+      "picture": "https://i.ibb.co/Mk9GDdJ/angello-pro-0-F-26-T1dcac-unsplash.jpg",
+      "phone": "+8801812345678",
+      "email": "olivia.taylor@example.com",
+      "facebook": "facebook.com/oliviataylor"
+    }
+  ]
+  

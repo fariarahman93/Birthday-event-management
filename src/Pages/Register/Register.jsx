@@ -29,7 +29,6 @@ const Register = () => {
     }
     return (
         <div>
-            <Navbar></Navbar>
             <div className="hero min-h-screen bg-pink-100">
   <div className="hero-content flex-col">
   <div >
@@ -78,7 +77,6 @@ const Register = () => {
   </div>
 </div>
 </div>
-            <Footer></Footer>
         </div>
     );
 };

@@ -1,14 +1,20 @@
+import { useLoaderData } from "react-router-dom";
+import PhotoCard from "../PhotoCard/PhotoCard"
 
-import Footer from "../../Shared/Footer/Footer";
-import Navbar from "../../Shared/Navbar/Navbar";
+
+
 
 
 const Photographers = () => {
+    const photos = useLoaderData();
+    console.log(photos);
     return (
         <div>
-            <Navbar></Navbar>
+            {
+                photos.map(photo=><PhotoCard photos={photo} key={photo.id}></PhotoCard>)
+            }
             <h2>Photographers</h2>
-            <Footer></Footer>
+
             
         </div>
     );
