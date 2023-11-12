@@ -1,0 +1,43 @@
+[
+    {
+      "id": "1",
+      "name": "Basic Package",
+      "photographer":"1 photographer",
+      "description": "Coverage of the birthday event for up to 2 hours",
+      "price": "150",
+      "picture": "https://i.ibb.co/vmd8hFJ/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Standard Package",
+      "photographer":"1 senior photographer",
+      "description": "Extended coverage of the birthday event for up to 4 hours",
+      "price": "250",
+      "picture": "https://i.ibb.co/TRWZQc6/bruce-tang-PH9ucxgjb-Y-unsplash.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Premium Package",
+      "photographer":"2 senior photographer",
+      "description": "Full-day coverage of the birthday event with additional candid shots",
+      "price": "400",
+      "picture": "https://i.ibb.co/XFgfRSR/lidya-nada-MD-ha01-Bk7c-unsplash.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Deluxe Package",
+        "photographer":"2 senior photographer & 2 photographer",
+        "description": "Extended coverage, high-resolution images, and a custom photo album",
+        "price": "600",
+        "picture": "https://i.ibb.co/V9gBdqF/bulbul-ahmed-LBo-XL7-Hvb-ZY-unsplash-1.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Ultimate Package",
+      "photographer":"2 senior photographer , 2 photographer & 1 cinematographer",
+      "description": "Full-day coverage, multiple photographers, high-quality prints, and a cinematic slideshow",
+      "price": "1000",
+      "picture": "https://i.ibb.co/Bnr2H5F/suke-tran-l-Jiib-L3-Sx-PI-unsplash.jpg"
+    }
+    
+  ]

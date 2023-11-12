@@ -14,6 +14,7 @@ import Photographers from './Pages/Photographers/Photographers';
 import Packages from './Pages/Packages/Packages';
 import Register from './Pages/Register/Register';
 import Login from './Pages/Login/Login';
+import AuthProvider from './providers/AuthProvider';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
       {
         path:'/packages',
         element:<Packages></Packages>,
+        loader: () =>fetch('package.json')
       },
       {
         path:'/register',
@@ -50,6 +52,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+  <AuthProvider>   <RouterProvider router={router} /></AuthProvider>
   </React.StrictMode>,
 )

@@ -1,9 +1,12 @@
 import { Link, NavLink } from "react-router-dom";
-import user from '../../assets/user.png';
+import one from "../../assets/one.png";
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 
 
 
 const Navbar = () => {
+    const {user} = useContext(AuthContext)
     const links = <>
      <NavLink to="/"> <li className="text-xl text-purple-500 font-semibold"><a>Home</a></li></NavLink>
      <NavLink to="/services"> <li className="text-xl text-purple-500 font-semibold"><a>Services</a></li></NavLink>
@@ -33,12 +36,18 @@ const Navbar = () => {
   <div className="flex navbar-end " >
     <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img src={user} />
+          <img src={one} />
         </div>
         
       </label>
       <div >
-    <Link to="/login"><a className="p-3 rounded-lg bg-pink-200 text-xl text-purple-500 font-semibold">Log In</a></Link>
+        {
+            user ? 
+            <button className="p-3 rounded-lg bg-pink-200 text-xl text-purple-500 font-semibold ">Sign Out</button>
+            :
+            <Link to="/login"><a className="p-3 rounded-lg bg-pink-200 text-xl text-purple-500 font-semibold">Log In</a></Link>
+        }
+   
   </div>
     </div>
   
