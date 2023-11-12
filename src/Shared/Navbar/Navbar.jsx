@@ -1,5 +1,6 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import user from '../../assets/user.png';
+
 
 
 const Navbar = () => {
@@ -37,7 +38,7 @@ const Navbar = () => {
         
       </label>
       <div >
-    <button className="p-3 rounded-lg bg-pink-200 text-xl text-purple-500 font-semibold">Log In</button>
+    <Link to="/login"><a className="p-3 rounded-lg bg-pink-200 text-xl text-purple-500 font-semibold">Log In</a></Link>
   </div>
     </div>
   
