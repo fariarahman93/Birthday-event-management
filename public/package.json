@@ -4,6 +4,7 @@
     "name": "Basic Package",
     "photographer": "1 photographer",
     "description": "Coverage of the birthday event for up to 2 hours",
+    "description2":"Capture the essence of your special day with our Basic Package. Our skilled photographer will cover the birthday event for up to 2 hours, ensuring that every precious moment is preserved. This package is perfect for those looking for a simple yet memorable experience.",
     "price": "150",
     "picture": "https://i.ibb.co/vmd8hFJ/annie-spratt-M20ylq-Cz-SZw-unsplash-1.jpg"
   },
@@ -12,6 +13,7 @@
     "name": "Standard Package",
     "photographer": "1 senior photographer",
     "description": "Extended coverage of the birthday event for up to 4 hours",
+    "description2":"Capture the essence of your special day with our Basic Package. Our skilled photographer will cover the birthday event for up to 2 hours, ensuring that every precious moment is preserved. This package is perfect for those looking for a simple yet memorable experience.",
     "price": "250",
     "picture": "https://i.ibb.co/BKPJP0b/douglas-j-s-moreira-UFd-Lg0-BX5a-M-unsplash.jpg"
   },
@@ -20,6 +22,7 @@
     "name": "Premium Package",
     "photographer": "2 senior photographer",
     "description": "Full-day coverage of the birthday event with additional candid shots",
+    "description2":"Capture the essence of your special day with our Basic Package. Our skilled photographer will cover the birthday event for up to 2 hours, ensuring that every precious moment is preserved. This package is perfect for those looking for a simple yet memorable experience.",
     "price": "400",
     "picture": "https://i.ibb.co/XFgfRSR/lidya-nada-MD-ha01-Bk7c-unsplash.jpg"
   },
@@ -28,6 +31,7 @@
     "name": "Deluxe Package",
     "photographer": "2 senior photographer & 2 photographer",
     "description": "Extended coverage, high-resolution images, and a custom photo album",
+    "description2":"Capture the essence of your special day with our Basic Package. Our skilled photographer will cover the birthday event for up to 2 hours, ensuring that every precious moment is preserved. This package is perfect for those looking for a simple yet memorable experience.",
     "price": "600",
     "picture": "https://i.ibb.co/V9gBdqF/bulbul-ahmed-LBo-XL7-Hvb-ZY-unsplash-1.jpg"
   },
@@ -36,7 +40,17 @@
     "name": "Ultimate Package",
     "photographer": "2 senior photographer & 1 cinematographer",
     "description": "Full-day coverage, multiple photographers and a cinematic slideshow",
+    "description2":"Capture the essence of your special day with our Basic Package. Our skilled photographer will cover the birthday event for up to 2 hours, ensuring that every precious moment is preserved. This package is perfect for those looking for a simple yet memorable experience.",
     "price": "1000",
     "picture": "https://i.ibb.co/Bnr2H5F/suke-tran-l-Jiib-L3-Sx-PI-unsplash.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Ultimate Premium Package",
+    "photographer": "2 senior photographer & 2 cinematographer",
+    "description": "Full-day coverage, multiple photographers,prints and a cinematic slideshow",
+    "description2":"Capture the essence of your special day with our Basic Package. Our skilled photographer will cover the birthday event for up to 2 hours, ensuring that every precious moment is preserved. This package is perfect for those looking for a simple yet memorable experience.",
+    "price": "1500",
+    "picture": "https://i.ibb.co/bRp4k8M/kateryna-hliznitsova-s-MLbh-Aq3xeo-unsplash.jpg"
   }
 ]

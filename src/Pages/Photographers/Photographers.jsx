@@ -9,11 +9,11 @@ const Photographers = () => {
     const photos = useLoaderData();
     console.log(photos);
     return (
-        <div>
+        <div  className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 mb-2">
             {
                 photos.map(photo=><PhotoCard photos={photo} key={photo.id}></PhotoCard>)
             }
-            <h2>Photographers</h2>
+            
 
             
         </div>

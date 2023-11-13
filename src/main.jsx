@@ -15,6 +15,8 @@ import Packages from './Pages/Packages/Packages';
 import Register from './Pages/Register/Register';
 import Login from './Pages/Login/Login';
 import AuthProvider from './providers/AuthProvider';
+import Detail from './Pages/Detail/Detail';
+import PrivateRoute from './providers/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +40,11 @@ const router = createBrowserRouter([
         path:'/packages',
         element:<Packages></Packages>,
         loader: () =>fetch('/package.json')
+      },
+      {
+           path:'/packages/:id',
+           element:<PrivateRoute><Detail></Detail></PrivateRoute>,
+           loader: () =>fetch('/package.json')
       },
       {
         path:'/register',
