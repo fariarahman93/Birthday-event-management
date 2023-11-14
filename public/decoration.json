@@ -1,0 +1,51 @@
+ [
+    {
+      "id": "1",
+      "name": "Standard Birthday Bliss",
+      "price": "$99.99",
+      "description1": "Celebrate your special day with our Standard Birthday Bliss package.",
+      "description2": "Transform your party space with a delightful mix of balloons, banners, and streamers. This package includes everything you need for a classic and joyous birthday celebration.",
+      "image": "https://i.ibb.co/KrNDxYd/brian-mcgowan-x-Ohz-HKCAh-Vs-unsplash.jpg"
+    },
+    {  
+      "id": "2",
+      "name": "Basic Celebration Delight",
+      "price": "$49.99",
+      "description1": "Make your birthday memorable with our Basic Celebration Delight package.",
+      "description2": "This budget-friendly package includes colorful balloons and a personalized banner, creating a cheerful atmosphere for your celebration. Simple yet delightful, it's perfect for intimate gatherings.",
+      "image": "https://i.ibb.co/LSZ9pWc/lucas-k-94q-Pv-R72-FWk-unsplash.jpg"
+    },
+    {  
+      "id": "3",
+      "name": "Premium Party Extravaganza",
+      "price": "$149.99",
+      "description1": "Go all out with our Premium Party Extravaganza package!",
+      "description2": "Turn your birthday into an extravagant event with this premium package. Featuring an assortment of premium balloons, elegant decorations, and a customized backdrop, this package is designed for those who want to make a statement on their special day.",
+      "image": "https://i.ibb.co/X4xzgNg/madison-oren-u-GP-6-CAD-14-unsplash.jpg"
+    },
+    { 
+      "id": "4",
+      "name": "Economy Birthday Bash",
+      "price": "$29.99",
+      "description1": "Enjoy a festive atmosphere on a budget with our Economy Birthday Bash package.",
+      "description2": "Perfect for smaller gatherings, this package includes essential decorations like balloons and streamers to add a touch of celebration to your birthday without breaking the bank.",
+      "image": "https://i.ibb.co/G0xSsp8/lucas-law-MTFq-QH1trs-A-unsplash.jpg"
+    },
+    { 
+      "id": "5",
+      "name": "Luxury Jubilee Celebration",
+      "price": "$249.99",
+      "description1": "Indulge in luxury with our Luxury Jubilee Celebration package.",
+      "description2": "Elevate your birthday experience with this opulent package, featuring high-quality decorations, premium table settings, and a personalized ambiance. Create lasting memories in style with this luxurious celebration package.",
+      "image": "https://i.ibb.co/Fgg1CKb/annie-gray-MO05f-Xi-Dobo-unsplash.jpg"
+    },
+    { 
+      "id": "6",
+      "name": "Sweet and Simple Soiree",
+      "price": "$39.99",
+      "description1": "Keep it sweet and simple with our Sweet and Simple Soiree package.",
+      "description2": "Ideal for those who appreciate the beauty of simplicity, this package includes charming decorations that add a touch of sweetness to your birthday celebration. Enjoy the simplicity of a well-curated and delightful party setup.",
+      "image": "https://i.ibb.co/QCqNK10/annie-spratt-M20ylq-Cz-SZw-unsplash.jpg"
+    }
+  ]
+

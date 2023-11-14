@@ -1,7 +1,12 @@
+import { Link } from "react-router-dom";
 
 
 const PhotoCard = ({photos}) => {
- const {designation,picture,name,phone,email,facebook} = photos 
+ const {designation,picture,name,phone,email,facebook,id} = photos
+ const handleReadMore = () => {
+    
+  console.log('read more');
+};
     return (
         <div className="card w-96 shadow-xl  bg-pink-100">
   <figure className="px-10 pt-10">
@@ -10,10 +15,9 @@ const PhotoCard = ({photos}) => {
   <div className="card-body items-center text-center">
     <h2 className="card-title  text-purple-600 font-bold">{designation}</h2>
     <p className=" text-purple-600 font-semibold">{name}</p>
-    <p  className=" text-purple-500 "><span className="text-purple-700 font-bold">Phone:</span>{phone}</p>
-    <p  className=" text-purple-500 "><span className="text-purple-700 font-bold">Email:</span>{email}</p>
-    <p  className=" text-purple-500 "><span className="text-purple-700 font-bold">Facebook:</span>{facebook}</p>
     
+    <Link to={`/photo/${id}`}><button className="btn bg-gradient-to-r from-pink-500 to-purple-500 mt-2"
+          onClick={handleReadMore}> <span className="text-pink-200 font-semibold">Read More</span> </button></Link>
   </div>
 </div>
     );

@@ -109,15 +109,38 @@ const Register = () => {
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text  text-purple-500 font-semibold">Package</span>
+                  <span className="label-text text-purple-500 font-semibold">Service</span>
                 </label>
-                <input type="text" name="package" placeholder="write your package name" className="input input-bordered" required />
+                <select name="service" className="select select-bordered" required>
+                  <option value="" disabled selected>
+                    Select your service
+                  </option>
+                  <option value="service1">Basic Package</option>
+                  <option value="service2">Standard Package</option>
+                  <option value="service3">Premium Package</option>
+                  <option value="service4">Deluxe Package</option>
+                  <option value="service5">Ultimate Package</option>
+                  <option value="service6">Ultimate Premium Package</option>
+                  
+                </select>
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text  text-purple-500 font-semibold">Service</span>
+                  <span className="label-text text-purple-500 font-semibold">Decoration</span>
                 </label>
-                <input type="text" name="service" placeholder="write your service name" className="input input-bordered" required />
+                <select name="decoration" className="select select-bordered" required>
+                  <option value="" disabled selected>
+                    Select decoration
+                  </option>
+                  <option value="decoration1">Standard Birthday Bliss</option>
+                  <option value="decoration2">Basic Celebration Delight</option>
+                  <option value="decoration3">Premium Party Extravaganza</option>
+                  <option value="decoration4">Economy Birthday Bash</option>
+                  <option value="decoration5">Luxury Jubilee Celebration</option>
+                  <option value="decoration6">Sweet and Simple Soiree</option>
+                  
+                  
+                </select>
               </div>
               <div className="form-control">
                 <label className="label">
@@ -140,3 +163,5 @@ const Register = () => {
 };
 
 export default Register;
+
+

@@ -6,10 +6,10 @@ import Navbar from "../../Shared/Navbar/Navbar";
 
 const Home = () => {
     return (
-        <div>
+        <div className="mb-5">
             
             <Banner></Banner>
-            <h2>hi home</h2>
+            
         </div>
     );
 };

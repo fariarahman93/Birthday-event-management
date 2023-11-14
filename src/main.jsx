@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import MainLayout from './Layout/MainLayout';
 import Home from './Pages/Home/Home';
-import Services from './Pages/Services/Services';
+
 import Photographers from './Pages/Photographers/Photographers';
 import Packages from './Pages/Packages/Packages';
 import Register from './Pages/Register/Register';
@@ -17,6 +17,10 @@ import Login from './Pages/Login/Login';
 import AuthProvider from './providers/AuthProvider';
 import Detail from './Pages/Detail/Detail';
 import PrivateRoute from './providers/PrivateRoute';
+import PhotoDetail from './Pages/PhotoDetail/PhotoDetail';
+import Decorations from './Pages/Decorations/Decorations';
+
+import DecorationDetail from './Pages/DecorationDetail/DecorationDetail';
 
 const router = createBrowserRouter([
   {
@@ -28,8 +32,14 @@ const router = createBrowserRouter([
         element:<Home></Home>,
       },
       {
-        path:'/services',
-        element:<Services></Services>,
+        path:'/decorations',
+        element:<Decorations></Decorations>,
+        loader:()=>fetch('/decoration.json')
+      },
+      {
+        path:'/decoration/:id',
+        element:<PrivateRoute><DecorationDetail></DecorationDetail></PrivateRoute>,
+        loader:()=>fetch('/decoration.json')
       },
       {
         path:'/photographers',
@@ -45,6 +55,11 @@ const router = createBrowserRouter([
            path:'/packages/:id',
            element:<PrivateRoute><Detail></Detail></PrivateRoute>,
            loader: () =>fetch('/package.json')
+      },
+      {
+        path:'/photo/:id',
+        element:<PrivateRoute><PhotoDetail></PhotoDetail>,</PrivateRoute>,
+        loader:()=>fetch('/photographer.json')
       },
       {
         path:'/register',
