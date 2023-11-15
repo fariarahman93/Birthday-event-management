@@ -3,8 +3,7 @@
 Welcome to Birthday Bash , where your birthdays come to life effortlessly!
 
 ## Live Site
-Visit our live site at [www.celebrateme.com](https://www.celebrateme.com)
-
+Visit our live site at [www.birthday-event-by-faria.web.app]( https://birthday-event-by-faria.web.app).
 ## Features and Functionalities
 
 - **User-Friendly Event Planning:**  Birthday Bash provides an intuitive and user-friendly platform to plan your events with ease. We've got your birthday party covered.
@@ -21,7 +20,7 @@ Visit our live site at [www.celebrateme.com](https://www.celebrateme.com)
 
 To start planning your event with Birthday Bash, follow these simple steps:
 
-1. Visit our live site at [www.celebrateme.com](https://www.celebrateme.com).
+1. Visit our live site at [www.birthday-event-by-faria.web.app]( https://birthday-event-by-faria.web.app).
 2. Please go through the decoration, service and photographer page.
 3. After that Fill up the registration page and then the log in page.
 4. You can click on the read more button to know more.Without logging in this button will not work.
