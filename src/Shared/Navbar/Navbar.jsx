@@ -12,7 +12,7 @@ const Navbar = () => {
     <NavLink to="/decorations"> <li className="text-xl text-purple-500 font-semibold"><a>Decorations</a></li></NavLink>
     <NavLink to="/photographers"> <li className="text-xl text-purple-500 font-semibold"><a>Photographers</a></li></NavLink>
     <NavLink to="/packages"> <li className="text-xl text-purple-500 font-semibold"><a>Services</a></li></NavLink>
-    <NavLink to="/register"> <li className="text-xl text-purple-500 font-semibold" ><a>Register</a></li></NavLink>
+    {!user && <NavLink to="/register"> <li className="text-xl text-purple-500 font-semibold" ><a>Register</a></li></NavLink>}
   </>
   const handleLogOut = () => {
     logOut()
