@@ -18,7 +18,7 @@
 //     const email = form.get('email');
 //     const password = form.get('password');
 //     console.log(email, password);
-    
+
 //     signIn(email, password)
 //             .then(result => {
 //                 const loggedUser = result.user;
@@ -70,13 +70,16 @@
 
 // export default Login;
 
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import { useLocation, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import SocialMediaLogin from "../../Shared/SocialMediaLogin";
 
 const Login = () => {
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
   const { signIn } = useContext(AuthContext);
   const navigate = useNavigate();
   const location = useLocation();
@@ -92,10 +95,13 @@ const Login = () => {
       const result = await signIn(email, password);
       const loggedUser = result.user;
       console.log(loggedUser);
+      setSuccess('User login successful.');
+      setError('');
       toast.success("User login successful.");
       navigate(from, { replace: true });
     } catch (error) {
       console.error(error);
+      setError(error.message);
       switch (error.code) {
         case "auth/wrong-password":
           toast.error("Password is incorrect");
@@ -157,6 +163,9 @@ const Login = () => {
                 </button>
               </div>
             </form>
+            <div className='flex flex-col md:flex-row gap-2 mb-4 ml-8'>
+              <SocialMediaLogin setSuccess={setSuccess} setError={setError}></SocialMediaLogin>
+            </div>
           </div>
         </div>
       </div>
